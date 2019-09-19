@@ -344,7 +344,7 @@ function comePecaDama(x, y) {
 }
 
 function comeDuplaDama(x, y) {
-
+    //verifica todos os lado da dama para comer mais de uma peça
     try {
         auxX = x; auxY = y;
         //for para subir da posição destino, diminui p X e aumentando Y /
