@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damas</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="./javaScript.js" type="application/javascript"></script>
+</head>
+
+<body onload="inicia_jogo();">
+    <div id="fundo"></div>
+    <div id="escolhecor-inicio" class="escolhe">
+        <h1>Quem Começa ?</h1>
+        <div onclick="escolhecor_incio('branco');">&#9898;</div>
+        <div onclick="escolhecor_incio('preto');">&#9899;</div>  
+    </div>
+
+    <div id="tabuleiro">
+        <div id="t11" ></div>
+        <div id="t12" onclick="seleciona(1,2);"></div>
+        <div id="t13" ></div>
+        <div id="t14" onclick="seleciona(1,4);"></div>
+        <div id="t15" ></div>
+        <div id="t16" onclick="seleciona(1,6);"></div>
+        <div id="t17" ></div>
+        <div id="t18" onclick="seleciona(1,8);"></div>
+
+        <div id="t21" onclick="seleciona(2,1);"></div>
+        <div id="t22" o></div>
+        <div id="t23" onclick="seleciona(2,3);"></div>
+        <div id="t24" ></div>
+        <div id="t25" onclick="seleciona(2,5);"></div>
+        <div id="t26" ></div>
+        <div id="t27" onclick="seleciona(2,7);"></div>
+        <div id="t28" ></div>
+
+        <div id="t31" ></div>
+        <div id="t32" onclick="seleciona(3,2);"></div>
+        <div id="t33" ></div>
+        <div id="t34" onclick="seleciona(3,4);"></div>
+        <div id="t35" ></div>
+        <div id="t36" onclick="seleciona(3,6);"></div>
+        <div id="t37" ></div>
+        <div id="t38" onclick="seleciona(3,8);"></div>
+
+        <div id="t41" onclick="seleciona(4,1);"></div>
+        <div id="t42" ></div>
+        <div id="t43" onclick="seleciona(4,3);"></div>
+        <div id="t44" ></div>
+        <div id="t45" onclick="seleciona(4,5);"></div>
+        <div id="t46" ></div>
+        <div id="t47" onclick="seleciona(4,7);"></div>
+        <div id="t48" ></div>
+
+        <div id="t51" ></div>
+        <div id="t52" onclick="seleciona(5,2);"></div>
+        <div id="t53" ></div>
+        <div id="t54" onclick="seleciona(5,4);"></div>
+        <div id="t55" ></div>
+        <div id="t56" onclick="seleciona(5,6);"></div>
+        <div id="t57" ></div>
+        <div id="t58" onclick="seleciona(5,8);"></div>
+
+        <div id="t61" onclick="seleciona(6,1);"></div>
+        <div id="t62" ></div>
+        <div id="t63" onclick="seleciona(6,3);"></div>
+        <div id="t64" ></div>
+        <div id="t65" onclick="seleciona(6,5);"></div>
+        <div id="t66" ></div>
+        <div id="t67" onclick="seleciona(6,7);"></div>
+        <div id="t68" ></div>
+
+        <div id="t71" ></div>
+        <div id="t72" onclick="seleciona(7,2);"></div>
+        <div id="t73" ></div>
+        <div id="t74" onclick="seleciona(7,4);"></div>
+        <div id="t75" ></div>
+        <div id="t76" onclick="seleciona(7,6);"></div>
+        <div id="t77" ></div>
+        <div id="t78" onclick="seleciona(7,8);"></div>
+
+        <div id="t81" onclick="seleciona(8,1);"></div>
+        <div id="t82" ></div>
+        <div id="t83" onclick="seleciona(8,3);"></div>
+        <div id="t84" ></div>
+        <div id="t85" onclick="seleciona(8,5);"></div>
+        <div id="t86" ></div>
+        <div id="t87" onclick="seleciona(8,7);"></div>
+        <div id="t88" ></div>
+
+    </div>
+</body>
+
+</html>
